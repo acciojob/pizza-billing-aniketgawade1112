@@ -45,6 +45,8 @@ public class Pizza {
         isToppingsAdded = false;
         isPaperBagAdded = false;
 
+
+        totalPrice = basePrice;
         bill = "Base Price of the Pizza: " + basePrice + "\n";
 
     }
