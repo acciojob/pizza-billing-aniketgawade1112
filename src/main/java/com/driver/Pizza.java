@@ -2,29 +2,29 @@ package com.driver;
 
 public class Pizza {
 
-    private int cheesePrice;
+    public int cheesePrice;
 
-    private int basePrice;
+    public int basePrice;
 
-    private int toppingPrice;
+    public int toppingPrice;
 
-    private int paperBagPrice;
+    public int paperBagPrice;
 
-    private String bill;
+    public String bill;
 
-    private int totalPrice;
+    public int totalPrice;
 
-    private boolean isCheeseAdded;
+    boolean isCheeseAdded;
 
     // NOTE: benefits of this variable
     // 1. It prevents duplicate addition of the cheese if called multiple times
     // 2. It also tells which all things have been added
 
-    private boolean isToppingsAdded;
+    boolean isToppingsAdded;
 
-    private boolean isPaperBagAdded;
+    boolean isPaperBagAdded;
 
-    private boolean isBillGenerated;
+    boolean isBillGenerated;
 
     public Pizza(Boolean isVeg){
         // constructor is used to initialize the attributes of any class
@@ -47,7 +47,7 @@ public class Pizza {
 
 
         totalPrice = basePrice;
-        bill = "Base Price of the Pizza: " + basePrice + "\n";
+        bill = "Base Price Of The Pizza: " + basePrice + "\n";
 
     }
 
